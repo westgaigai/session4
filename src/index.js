@@ -225,3 +225,8 @@ const fee = num || "金額未設定です";
 const num2 = null;
 const fee2 = num2 && "何か設定されました";
 console.log(fee2);
+
+const arrowLesson = (name) => {
+  return `${name}さん`;
+};
+console.log(arrowLesson("ゆうと"));
